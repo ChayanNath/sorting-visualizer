@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+// 3. Base stuff
+@import
+  'base/reset',
+  'base/fonts',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/header';
+
+// 5. Components
+@import
+  'components/button';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';
+
+
+// Utils
+@import
+'utils/utils';
